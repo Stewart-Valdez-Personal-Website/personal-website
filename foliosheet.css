@@ -1,6 +1,29 @@
-nav {
-    background-color: #333;
-    color: #fff;
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+  }
+
+
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+            margin: 0;
+            padding 0;
+}
+
+  nav {
+    background-color: darkblue;
+    color: white;
     display: flex;
     justify-content: center;
   }
@@ -13,11 +36,11 @@ nav {
   }
   
   li {
-    margin: 0 10px;
+    margin:0 10px;
   }
   
   a {
-    color: #fff;
+    color: rgb(79, 189, 176);
     text-decoration: none;
   }
   
