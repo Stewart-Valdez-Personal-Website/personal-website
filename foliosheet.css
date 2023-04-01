@@ -94,4 +94,13 @@ body {
     font-size: 1em;
     line-height: 1.5;
   }
+
+  .container {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
   
