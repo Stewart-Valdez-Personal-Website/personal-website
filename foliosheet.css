@@ -9,8 +9,18 @@
     margin-top: 50px;
   }
 
-
-
+header {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    transform: translate(-50%, -50%);
+    animation: slide-in 1s forwards;
+}
+@keyframes slide-in {
+    100% {
+        left: 50%;
+    }
+}
 body {
     background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
             background-repeat: no-repeat;
