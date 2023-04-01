@@ -35,13 +35,12 @@ h1 {
       }
     }
     
-  
-
 @keyframes slide-in {
     100% {
         left: 50%;
     }
 }
+
 body {
     background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
             background-repeat: no-repeat;
