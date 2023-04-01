@@ -16,6 +16,27 @@ header {
     transform: translate(-50%, -50%);
     animation: slide-in 1s forwards;
 }
+h1 {
+    animation: flash 4.5s ease-in-out infinite;
+  }
+  
+  @keyframes flash {
+    0% {
+        color: #23e0f5;
+        text-shadow: black;
+      }
+      50% {
+        color: #c08628;
+        text-shadow: 0 0 5px #F5A623, 0 0 10px #F5A623;
+      }
+      100% {
+        color: #7d8983;
+        text-shadow: none;
+      }
+    }
+    
+  
+
 @keyframes slide-in {
     100% {
         left: 50%;
@@ -52,5 +73,26 @@ body {
   a {
     color: rgb(79, 189, 176);
     text-decoration: none;
+  }
+ 
+ 
+  .box {
+    display: inline-block;
+    background-color: #519ad2;
+    border: 1px solid rgb(58, 27, 27);
+    padding: 50px;
+    margin: 0px;
+    box-shadow: 2px 2px 5px rgb(12, 9, 9);
+    width: calc(33.33% - 40px);
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
   }
   
