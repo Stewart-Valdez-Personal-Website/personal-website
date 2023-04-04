@@ -115,4 +115,7 @@ body {
     flex: 1;
     padding: 20px;
   }
-  
+  p {
+    font-style: italic;
+    
+  }
