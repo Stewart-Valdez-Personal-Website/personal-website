@@ -1,4 +1,4 @@
-// Below is a functio to create time and date clock.
+// Below is a function to create time and date clock.
 function updateDateTime() {
     const currentDatetime = new Date();
     const formattedDatetime = currentDatetime.toLocaleString();
@@ -22,4 +22,3 @@ function updateDateTime() {
   
   // Update the date and time every second
   setInterval(updateDateTime, 1000);
-
