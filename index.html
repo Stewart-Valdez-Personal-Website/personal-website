@@ -5,71 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="foliosheet.css"/>
-    <script src="main.js"></script>
     <title>Personal Website</title>
     <style>
         body {
-            background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg);
+            background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            }
+            background-position: center;
+        }
     </style>
-    
 </head>
 <nav>
     <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="portfolio.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio & Services</a></li>
   </ul>
 
 </nav>
 <body>
-    
     <!--This is going to represent the start of my portfolio website.-->
-    <section>
+    <div class="box-1">
+        <p id="current-datetime"></p>
+        <script>
+            function updateDateTime() {
+              const currentDatetime = new Date();
+              const formattedDatetime = currentDatetime.toLocaleString();
+              document.getElementById('current-datetime').innerText = formattedDatetime;
+            }
+        
+            // Update the date and time when the page loads
+            updateDateTime();
+        
+            // Update the date and time every second
+            setInterval(updateDateTime, 1000);
+          </script>
+          </div>
+        </body>
     
-    </section>
-     
-    <!---Giving a brief description and opening to my first page.-->
-    <main>
+    
+        <main>
     <article>
     <header>
         <div class="containter">
             <div class="column">
-                <h1 class="title"><strong>Stewart Valdez</strong></h1>
-                <img src="file:///Users/stewartvaldez/Desktop/personal-website/Selfie.jpg" alt="My Photo" id="selfie-photo">
-                <p>Building scalable applications, to offer worry free expansion.</p>
+                <h1 class="title">Stewart Valdez</h1>
+                <img src="Selfie.jpg" alt="Selfie" id="selfie-photo">
+        <p>Building scalable applications to promote limitless expansion.</p>
         </div>
         </div>
     </header>
 </article>
 </main>
-</body>
-
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <footer>
-    </footer>
-    
-</body>
-</html>
