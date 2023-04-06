@@ -22,26 +22,26 @@
 
 header {
     position: absolute;
-    top: 50%;
-    left: -100%;
+    top: 35%;
+    left: -150%;
     transform: translate(-50%, -50%);
-    animation: slide-in 1s forwards;
+    animation: slide-in 1.5s forwards;
 }
 h1 {
-    animation: flash 4.5s ease-in-out infinite;
+    animation: flash 15.5s ease-in-out infinite;
   }
   
   @keyframes flash {
     0% {
-        color: #23e0f5;
+        color: #1a2c2e;
         text-shadow: black;
       }
       50% {
-        color: #c08628;
+        color: #0e130d;
         text-shadow: 0 0 5px #F5A623, 0 0 10px #F5A623;
       }
       100% {
-        color: #7d8983;
+        color: #060f0b;
         text-shadow: none;
       }
     }
@@ -53,14 +53,21 @@ h1 {
 }
 
 body {
-    background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            height: 100vh;
-            margin: 0;
-            padding 0;
+  background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          height: 100vh;
+          margin: 0;
+          padding 0;
 }
+
+#selfie-photo {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain the aspect ratio */
+  border: 5px solid #000; /* Add a 5px solid black border */
+}
+
 
   nav {
     background-color: darkblue;
@@ -85,16 +92,6 @@ body {
     text-decoration: none;
   }
  
- 
-  .box {
-    display: inline-block;
-    background-color: #519ad2;
-    border: 1px solid rgb(58, 27, 27);
-    padding: 50px;
-    margin: 0px;
-    box-shadow: 2px 2px 5px rgb(12, 9, 9);
-    width: calc(33.33% - 40px);
-  }
   
   h2 {
     font-size: 1.5em;
@@ -116,6 +113,7 @@ body {
     padding: 20px;
   }
   p {
-    font-style: italic;
-    
+    font-style: italic ;
+    color: rgb(233, 253, 15) ;
+
   }
