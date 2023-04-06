@@ -22,27 +22,27 @@ h1 {
 
 @keyframes flash {
   0% {
-      color: #23e0f5;
+      color: #071617;
       text-shadow: black;
     }
     50% {
-      color: #c08628;
-      text-shadow: 0 0 5px #F5A623, 0 0 10px #F5A623;
+      color: #e8eb30;
+      text-shadow: 0 0 5px #513303, 0 0 10px #F5A623;
     }
     100% {
-      color: #7d8983;
+      color: #daf145;
       text-shadow: none;
     }
   }
   
 @keyframes slide-in {
   100% {
-      left: 50%;
+      left: 84%;
   }
 }
 
 body {
-  background-image: url(https://wallpaperaccess.com/full/5651999.jpg);
+  background-image: url(https://png.pngtree.com/background/20210717/original/pngtree-minimalist-abstract-background-portfolio-picture-image_1447430.jpg);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center center;
@@ -52,9 +52,10 @@ body {
 }
 
 nav {
-  background-color: darkblue;
+  background-color: rgb(57, 120, 221);
   color: white;
   display: flex;
+  height: 50px;
   justify-content: center;
 }
 
@@ -74,18 +75,28 @@ a {
   text-decoration: none;
 }
 
+.pfont {
+  color:#1764f3;
+  font-family:'Times New Roman', Times, serif;
+}
+.mainfont {
+  font-size: larger;
+}
+
 #selfie-photo {
   width: 300px ;
-  height: auto ;
-  border 5px solid #000;
+  height:auto ;
+  border-style: inset ;
+  border-width: 1.5em;
+  border-color: #c27203;
 }
 
 .box-1 {
   display: flex;
-  background-color: #519ad2;
+  background-color: #d4bda4;
   border: 1px solid rgb(58, 27, 27);
   align-items: flex-start;
-  width: 145px;
+  width: 150px;
   padding: 0px;
   margin: 0px;
   box-shadow: 2px 2px 5px rgb(12, 9, 9);
@@ -98,7 +109,7 @@ h2 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.65em;
   line-height: 1.5;
 }
 
@@ -110,4 +121,3 @@ p {
   flex: 1;
   padding: 20px;
 }
-
