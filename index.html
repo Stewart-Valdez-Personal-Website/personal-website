@@ -15,79 +15,58 @@
         }
     </style>
 </head>
-<nav>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="portfolio.html">Portfolio & Services</a></li>
-  </ul>
-
-</nav>
 <body>
-    <!--This is going to represent the start of my portfolio website.-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio & Services</a></li>
+        </ul>
+    </nav>
+
+    <!-- This is going to represent the start of my portfolio website. -->
     <div class="box-1">
         <p id="current-datetime"></p>
         <script>
             function updateDateTime() {
-              const currentDatetime = new Date();
-              const formattedDatetime = currentDatetime.toLocaleString();
-              document.getElementById('current-datetime').innerText = formattedDatetime;
+                const currentDatetime = new Date();
+                const formattedDatetime = currentDatetime.toLocaleString();
+                document.getElementById('current-datetime').innerText = formattedDatetime;
             }
-        
+
             // Update the date and time when the page loads
             updateDateTime();
-        
+
             // Update the date and time every second
             setInterval(updateDateTime, 1000);
-          </script>
-          </div>
-        </body>
-    
-    
-        <main>
-    <article>
-    <header>
-        <div class="containter">
-            <div class="column">
-                <h1 class="title">Stewart Valdez</h1>
-                <img src="Selfie.jpg" alt="Selfie" id="selfie-photo">
-        <p class="pfont">Building scalable applications to promote limitless expansion.</p>
-        </div>
-        </div>
-    </header>
-</article>
-</main>
+        </script>
+    </div>
 
-<section>
     <main>
-       <p class="mainfont"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deserunt corrupti nobis nisi veritatis dolorum esse illo accusamus labore!<br> 
-        Corrupti eos quas iure totam quasi, officia assumenda eum minima quae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid magnam <br>
-        fugiat adipisci, nostrum impedit similique veritatis neque autem, quod et explicabo quidem debitis illo laborum mollitia veniam? Esse, quaerat? Lorem ipsum,<br>
-        dolor sit amet consectetur adipisicing elit. Excepturi atque molestias dicta ducimus iusto. Dignissimos laborum illum <br>
-        laudantium, unde dicta voluptate officia vitae optio dolorem in accusamus sapiente, eos vel?</p>
+        <article>
+            <header>
+                <div class="container">
+                    <div class="column">
+                        <h1 class="title">Stewart Valdez</h1>
+                        <img src="Selfie.jpg" alt="Selfie" id="selfie-photo">
+                        <p class="pfont">Building scalable applications to promote limitless expansion.</p>
+                    </div>
+                </div>
+            </header>
+        </article>
+
+        <section>
+            <p class="mainfont"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deserunt corrupti nobis nisi veritatis dolorum esse illo accusamus labore!<br>
+                Corrupti eos quas iure totam quasi, officia assumenda eum minima quae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid magnam <br>
+                fugiat adipisci, nostrum impedit similique veritatis neque autem, quod et explicabo quidem debitis illo laborum mollitia veniam? Esse, quaerat? Lorem ipsum,<br>
+                dolor sit amet consectetur adipisicing elit. Excepturi atque molestias dicta ducimus iusto. Dignissimos laborum illum <br>
+                laudantium, unde dicta voluptate officia vitae optio dolorem in accusamus sapiente, eos vel?</p>
+        </section>
     </main>
-</section>
 
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <footer>
     </footer>
-    
 </body>
 </html>
+
 
