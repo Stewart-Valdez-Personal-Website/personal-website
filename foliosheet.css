@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  height: 350vh;
   margin: 0;
   padding: 0;
 }
@@ -12,18 +12,16 @@ body {
 /* Typography List */
 .title {
   font-family: Arial, sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
   color: #333;
-  text-align: center;
+  text-align:left;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 50px;
+  margin-top: 3px;
+  animation: slide-in 1s forwards;
 }
 
-h1 {
-  animation: flash 4.5s ease-in-out infinite;
-}
 
 h2 {
   font-size: 1.5em;
@@ -36,8 +34,11 @@ p {
 }
 
 .pfont {
-  color: #1764f3;
+  color: #e79c40;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
+  font-display: auto;
+  font-style: italic;
 }
 
 .mainfont {
@@ -50,11 +51,49 @@ p {
   font-family: 'Courier New', monospace;
 }
 
+/* For my Flexbox Wrapper Appearance */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header {
+  display:inline-block;
+  height: 5px;
+  text-align: left;
+  color: #000;
+}
+
+main {
+  background-color: #ede7e7;
+  flex: 1;
+}
+
+aside {
+  background-color: #e0e0e0;
+  width: 240px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  
+}
 
 /* Navigation */
 nav {
-  background-color: rgb(57, 120, 221);
-  color: white;
+  background-color: rgb(33, 143, 126);
+  color: rgb(0, 0, 0);
   display: flex;
   height: 50px;
   justify-content: center;
@@ -68,7 +107,9 @@ ul {
 }
 
 li {
-  margin: 0 10px;
+  margin: 0 40px;
+  font-size: 40px;
+  font-style: italic;;
 }
 
 a {
@@ -78,43 +119,30 @@ a {
 
 /* Content items */
 .container {
-  display: flex;
+  display: inline flex;
+  justify-content:space-evenly;
+  align-items: flex-start;
+  content-position: right;
 }
 
 .column {
-  flex: 1;
-  padding: 20px;
-}
-
-.box-1 {
-  display: flex;
-  background-color: #d4bda4;
-  border: 1px solid rgb(58, 27, 27);
-  align-items: flex-start;
-  width: 150px;
-  padding: 0px;
-  margin: 0px;
-  box-shadow: 2px 2px 5px rgb(12, 9, 9);
+  display:flex;
+  flex-direction:column ;
+  padding: 10px;
 }
 
 #selfie-photo {
-  width: 300px;
-  height: auto;
-  border-style: inset;
-  border-width: 1.5em;
-  border-color: #c27203;
+  width: 160px;
+  height:160px;
+  border-style: ridge;
+  border-width: .5em;
+  border-color: #854c3e;
+}
+h1 {
+  font-size: medium;
 }
 
-/* Header */
-header {
-  position: absolute;
-  top: 50%;
-  left: -100%;
-  transform: translate(-50%, -50%);
-  animation: slide-in 1s forwards;
-}
-
-/* Animations created */
+/* Animations created (cancelled for now)
 @keyframes flash {
   0% {
     color: #071617;
@@ -135,4 +163,6 @@ header {
     left: 84%;
   }
 }
+
+*/
 
