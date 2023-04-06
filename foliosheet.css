@@ -44,6 +44,13 @@ p {
   font-size: larger;
 }
 
+/* For JavaScript Time/Date Clock. */
+.datetime-style {
+  color: black;
+  font-family: 'Courier New', monospace;
+}
+
+
 /* Navigation */
 nav {
   background-color: rgb(57, 120, 221);
