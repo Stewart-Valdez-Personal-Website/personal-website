@@ -1,10 +1,12 @@
 /* General */
+* {
+  box-sizing: border-box;
+}
 body {
   background-image: url(https://png.pngtree.com/background/20210717/original/pngtree-minimalist-abstract-background-portfolio-picture-image_1447430.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 350vh;
   margin: 0;
   padding: 0;
 }
@@ -58,26 +60,30 @@ p {
   flex-wrap: wrap;
 }
 
-header, main, aside, footer {
-  padding: 10px;
-  box-sizing: border-box;
+.arrange {
+  height: 20vh;
+
 }
+
 
 header {
   display:inline-block;
-  height: 5px;
+  height: 20vh;
+  padding: 10px;
   text-align: left;
   color: #000;
 }
 
 main {
   background-color: #ede7e7;
+  padding: 10px;
   flex: 1;
 }
 
 aside {
   background-color: #e0e0e0;
-  width: 240px;
+  padding: 10px;
+  width: 180px;
 }
 
 nav a {
@@ -87,6 +93,9 @@ nav a {
 
 footer {
   display: flex;
+  padding: 10px;
+  height: 20vh;
+  background-color: red;
   
 }
 
