@@ -152,6 +152,22 @@ h1 {
   font-size: medium;
 }
 
+/* Media Queries */
+
+/* Mobile Devices */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Computer Desktop Format */
+@media (min-width: 1080px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 /* Animations created (cancelled for now)
 @keyframes flash {
   0% {
